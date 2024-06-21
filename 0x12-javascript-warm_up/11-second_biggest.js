@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-function secondBiggest(args) {
+function secondBiggest (args) {
   if (args.length <= 1) {
     return 0;
   }
@@ -9,7 +9,7 @@ function secondBiggest(args) {
   let secondMax = -Infinity;
   
   for (const num of args) {
-    if (num > max) {
+     if (num > max) {
       secondMax = max;
       max = num;
     } else if (num > secondMax && num < max) {
