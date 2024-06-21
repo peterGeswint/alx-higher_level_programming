@@ -2,11 +2,12 @@
 
 'use strict';
 
-/* eslint-disable no-unused-vars */
 class Rectangle {
-  constructor(w, h) {
+  constructor (w, h) {
     this.width = w;
     this.height = h;
   }
 }
-/* eslint-enable no-unused-vars */
+
+// Export the Rectangle class
+module.exports = Rectangle;
