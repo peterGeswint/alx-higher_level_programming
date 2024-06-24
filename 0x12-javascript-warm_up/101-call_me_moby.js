@@ -1,3 +1,5 @@
 #!/usr/bin/node
-/* myVar updated */
-myVar = 333;
+
+exports.callMeMoby = function (number, theFunction){
+	theFunction(++number);
+};
