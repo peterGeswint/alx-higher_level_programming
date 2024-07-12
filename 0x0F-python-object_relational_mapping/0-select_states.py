@@ -33,4 +33,8 @@ if __name__ == "__main__":
         print(row)
 
     cur.close()
+<<<<<<< HEAD
     conn.close()
+=======
+    conn.close()
+>>>>>>> 8351951e86ad3f7c539ca53a2a0ee010967c1cf7
