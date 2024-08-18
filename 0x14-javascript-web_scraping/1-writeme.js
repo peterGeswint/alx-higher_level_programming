@@ -6,9 +6,7 @@ function writeFile (filePath, content) {
   fs.writeFile(filePath, content, 'utf8', (err) => {
     if (err) {
       console.error(`Error: ${err.message}`);
-      return;
     }
-    console.log('File wriiten successfully');
   });
 }
 
