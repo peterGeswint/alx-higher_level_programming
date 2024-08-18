@@ -1,6 +1,5 @@
 #!/usr/bin/node
 /* eslint-disable no-undef */
-#!/usr/bin/node
 
 const fs = require('fs');
 
