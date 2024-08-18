@@ -1,8 +1,5 @@
 #!/usr/bin/node
 /* eslint-disable no-undef */
-
-#Write a script that reads and prints the content of a file.
-
 #!/usr/bin/node
 
 const fs = require('fs');
@@ -10,7 +7,7 @@ const fs = require('fs');
 function readFile(filePath) {
 	  fs.readFile(filePath, 'utf8', (err, data) => {
 		      if (err) {
-			            console.error(`An error occurred: ${err}`);
+			            console.error(`An error occurred: ${err.message}`);
 			            return;
 			          }
 		      console.log(data);
@@ -22,3 +19,4 @@ if (process.argv.length < 3) {
 } else {
 	  readFile(process.argv[2]);
 }
+
